@@ -152,7 +152,7 @@ All colors MUST be HSL.
   }
 
   .card-game {
-    @apply card-casino cursor-pointer hover:border-primary/50 group;
+    @apply card-casino cursor-pointer hover:border-primary/50;
   }
 
   /* Animations */

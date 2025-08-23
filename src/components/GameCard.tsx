@@ -10,7 +10,7 @@ interface GameCardProps {
 
 const GameCard = ({ title, image, category, isHot, isNew }: GameCardProps) => {
   return (
-    <div className="card-game relative overflow-hidden">
+    <div className="card-game group relative overflow-hidden">
       {/* Badge */}
       {(isHot || isNew) && (
         <div className={`absolute top-3 right-3 z-10 px-2 py-1 rounded-full text-xs font-bold ${
